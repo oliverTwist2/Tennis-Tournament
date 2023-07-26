@@ -1,5 +1,8 @@
 # Tennis-Tournament
 
+# Author
+Ikegah Oliver A.
+
 ## Description 
 A CRUD api to setup a tournament with a challenger, challenged and a court.
 
@@ -10,9 +13,9 @@ npm install -
 Express, nodemon, mongoose, dotenv, uuid
 
 ## Requests
-# Get
+### Get
 - Get all tournaments
-# Post
+### Post
 - Create challenger using required schema
 - Create challenged using required schema
 - Create court using required schema
