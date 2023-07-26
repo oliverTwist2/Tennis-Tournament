@@ -9,6 +9,11 @@ const courtRoute = require("./routes/court");
 dotenv.config();
 const app = express();
 
+// Display a message in home page
+app.get("/", (req, res) => {
+  res.send("Tennis API is working");
+});
+
 //middleware for handling json, raw, text and url encoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
