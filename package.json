@@ -1,0 +1,20 @@
+{
+  "name": "tennis-backend",
+  "version": "1.0.0",
+  "description": "An assesment",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "start": "node ."
+  },
+  "author": "Ikegah Oliver",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1",
+    "socketio": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}
