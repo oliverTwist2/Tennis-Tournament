@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon index.js",
-    "start": "node ."
+    "start": "node api.js && node ."
   },
   "author": "Ikegah Oliver",
   "license": "ISC",
